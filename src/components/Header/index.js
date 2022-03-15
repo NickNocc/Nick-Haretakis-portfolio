@@ -3,6 +3,7 @@ import Nav from '../Nav';
 
 function Header() {
     const [currentCategory, setCurrentCategory] = useState(categories[0]);
+    besrsaersearsea
 
     return (
         <header className='flex-row px-1'>
