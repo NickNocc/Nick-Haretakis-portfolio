@@ -6,10 +6,7 @@ import ContactForm from "./components/Contact";
 function App() {
   return (
     <div>
-      <Header></Header>
-      <main>
-        <ContactForm></ContactForm>
-      </main>
+      <Intro />
     </div>
 
   );
