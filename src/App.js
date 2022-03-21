@@ -4,12 +4,14 @@ import React from "react";
 // import ContactForm from "./components/Contact";
 import Intro from "./components/Intro";
 import About from "./components/About/About";
+import ProjectList from "./components/ProjectList/ProjectList"
 
 function App() {
   return (
     <div>
       <Intro />
       <About />
+      <ProjectList></ProjectList>
     </div>
 
   );
