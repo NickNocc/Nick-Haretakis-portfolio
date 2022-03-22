@@ -1,12 +1,17 @@
-import React, { useRef, useState } from "react";
+import React, { useContext, useRef, useState } from "react";
 import "./Contact.css";
 import Phone from "../../assets/img/phone.png";
 import Email from "../../assets/img/email.png";
 import emailjs from "emailjs-com";
+import { ThemeContext } from "../../context";
 
 function ContactForm() {
   const formRef = useRef();
   const [done, setDone] = useState(false);
+
+  const theme = useContext(ThemeContext);
+
+  const darkMode = theme.state.darkMode;
 
   const sumbitHandler = (e) => {
     e.preventDefault();
@@ -49,10 +54,10 @@ function ContactForm() {
         <div className="contact-right">
           <p className="contact-desc">This is some text!</p>
           <form ref={formRef} onSubmit={sumbitHandler}>
-            <input type="text" placeholder="Name" name="user_name" />
-            <input type="text" placeholder="Subject" name="user_subject" />
-            <input type="text" placeholder="Email" name="user_email" />
-            <textarea rows="5" placeholder="Message" name="message" />
+            <input style={{backgroundColor: darkMode && "#333"}} type="text" placeholder="Name" name="user_name" />
+            <input style={{backgroundColor: darkMode && "#333"}} type="text" placeholder="Subject" name="user_subject" />
+            <input style={{backgroundColor: darkMode && "#333"}} type="text" placeholder="Email" name="user_email" />
+            <textarea style={{backgroundColor: darkMode && "#333"}} rows="5" placeholder="Message" name="message" />
             <button>Submit</button>
             {done && "Thank you!"}
           </form>
