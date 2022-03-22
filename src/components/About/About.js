@@ -4,12 +4,6 @@ import "./about.css";
 const About = () => {
   return (
     <div className="about">
-      <div className="about-left">
-        <div className="about-card"></div>
-        <div className="about-card-img">
-          <img src="" alt="" className="about-img"></img>
-        </div>
-      </div>
       <div className="about-right">
         <h1 className="about-title">About Me</h1>
         <p className="about-sub">

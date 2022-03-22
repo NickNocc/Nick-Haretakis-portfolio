@@ -82,4 +82,21 @@
     right: 0;
 }
 
-@media screen and (max-width: 480px)
+@media screen and (max-width: 480px) {
+    .intro {
+        flex-direction: column;
+    }
+
+    .intro-left-wrapper {
+        padding-top: 10px;
+        height: 30px;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        height: 100%;
+    }
+
+    .intro-description {
+        display: none;
+    }
+}

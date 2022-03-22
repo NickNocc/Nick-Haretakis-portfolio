@@ -25,3 +25,10 @@
 .project-img {
     width: 100%;
 }
+
+@media screen and (max-width: 480px) {
+    .project {
+        width: 40%;
+        height: 20vh;
+    }
+}
