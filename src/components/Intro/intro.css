@@ -23,7 +23,7 @@
 }
 
 .intro-name {
-    font-size: 60;
+    font-size: 60px;
 }
 
 .intro-title {
@@ -85,6 +85,11 @@
 @media screen and (max-width: 480px) {
     .intro {
         flex-direction: column;
+    }
+
+    .intro-img {
+        width: 87%;
+        left: 28px;
     }
 
     .intro-left-wrapper {
