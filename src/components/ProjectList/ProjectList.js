@@ -1,7 +1,11 @@
 import React from "react";
 import "./ProjectList.css";
 import Project from "../Project/Project.js";
-const ProjectList = () => {
+// import { projects } from "../../assets/data"
+
+const ProjectList = (props) => {
+  const { projects } = props;
+
   return (
     <div className="pl">
       <div className="pl-text">
@@ -12,12 +16,9 @@ const ProjectList = () => {
         </p>
       </div>
       <div className="pl-list">
-        <Project />
-        <Project />
-        <Project />
-        <Project />
-        <Project />
-        <Project />
+        {projects.map((item) => (
+          <Project key={item.id} img={item.img} link={item.link} />
+        ))}
       </div>
     </div>
   );

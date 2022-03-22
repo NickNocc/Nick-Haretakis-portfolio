@@ -1,26 +1,65 @@
-import React from "react";
+import React, { useRef, useState } from "react";
+import "./Contact.css";
+import Phone from "../../assets/img/phone.png";
+import Email from "../../assets/img/email.png";
+import emailjs from "emailjs-com";
 
 function ContactForm() {
+  const formRef = useRef();
+  const [done, setDone] = useState(false);
 
-    return (
-        <section>
-            <h1>Contact me</h1>
-            <form>
-                <div>
-                    <label htmlFor="name">Name:</label>
-                    <input type="text" name="name" />
-                </div>
-                <div>
-                    <label htmlFor="email">Email:</label>
-                    <input type="email" name="email" />
-                </div>
-                <div>
-                    <label htmlFor="message">Message:</label>
-                    <textarea type="message" rows="5" />
-                </div>
-            </form>
-        </section>
-    )
+  const sumbitHandler = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm(
+        "service_xlkt6yk",
+        "template_zd2jr4f",
+        formRef.current,
+        "413IWZuTinuLReq7s"
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+          setDone(true);
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
+  };
+
+  return (
+    <div className="contact">
+      <div className="contact-bg"></div>
+      <div className="contact-wrapper">
+        <div className="contact-left">
+          <h1 className="contact-title"> Project? sdssssss</h1>
+          <div className="contact-info">
+            <div className="contact-info-item">
+              <img className="contact-icon" src={Phone} alt="" />
+              1-(951)-200-1966
+            </div>
+            <div className="contact-info-item">
+              <img className="contact-icon" src={Email} alt="" />
+              NickHaretakis@gmail.com
+            </div>
+          </div>
+        </div>
+        <div className="contact-right">
+          <p className="contact-desc">This is some text!</p>
+          <form ref={formRef} onSubmit={sumbitHandler}>
+            <input type="text" placeholder="Name" name="user_name" />
+            <input type="text" placeholder="Subject" name="user_subject" />
+            <input type="text" placeholder="Email" name="user_email" />
+            <textarea rows="5" placeholder="Message" name="message" />
+            <button>Submit</button>
+            {done && "Thank you!"}
+          </form>
+        </div>
+      </div>
+    </div>
+  );
 }
 
 export default ContactForm;

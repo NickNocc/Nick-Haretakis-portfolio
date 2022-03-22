@@ -1,17 +1,26 @@
-import React from "react";
-// import Footer from './components/Footer';
-// import Header from './components/Header';
-// import ContactForm from "./components/Contact";
+import React, { useContext } from "react";
+
 import Intro from "./components/Intro";
 import About from "./components/About/About";
 import ProjectList from "./components/ProjectList/ProjectList"
+import projects from "./assets/data";
+import ContactForm from "./components/Contact";
+import Toggle from "./components/Toggle/toggle";
+import { ThemeContext } from "./context";
 
 function App() {
+
+  const theme = useContext(ThemeContext);
+
+  const darkMode = theme.state.darkMode;
+
   return (
-    <div>
+    <div style={{backgroundColor:darkMode ? "#222" : "white", color:darkMode && "white" }}>
+      <Toggle/>
       <Intro />
       <About />
-      <ProjectList></ProjectList>
+      <ProjectList projects={projects}></ProjectList>
+      <ContactForm />
     </div>
 
   );
