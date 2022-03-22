@@ -11,8 +11,6 @@ const ProjectList = (props) => {
       <div className="pl-text">
         <h1 className="pl-title">Projects</h1>
         <p className="pl-desc">
-          test
-          testtesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttest
         </p>
       </div>
       <div className="pl-list">

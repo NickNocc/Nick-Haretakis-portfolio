@@ -1,5 +1,5 @@
 .contact {
-    height: 100vh;
+    height: 54vh;
     position: relative;
 }
 
@@ -30,6 +30,7 @@
 .contact-title {
     font-size: 60px;
     width: 80%;
+    color: #342E37;
 }
 
 .contact-info-item {
@@ -37,6 +38,7 @@
     align-items: center;
     margin: 50px 0px;
     font-weight: 300;
+    color: #342E37;
 }
 
 .contact-icon {
@@ -46,6 +48,7 @@
 }
 
 .contact-desc {
+    font-size: 20px;
     font-weight: 200;
 }
 
@@ -76,6 +79,11 @@ button {
     background-color: aquamarine;
     color: white;
     font-weight: 500;
+}
+
+a {
+    text-decoration: none;
+    color: #342E37;
 }
 
 @media screen and (max-width: 480px) {

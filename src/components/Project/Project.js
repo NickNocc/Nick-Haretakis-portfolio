@@ -1,5 +1,5 @@
 import React from "react";
-import "./Project.css";
+import "./project.css";
 
 function Project({img, link}) {
   return (
@@ -9,7 +9,7 @@ function Project({img, link}) {
         <div className="project-circle"></div>
         <div className="project-circle"></div>
       </div>
-      <a href="link" target="_blank" rel="noreferrer">
+      <a href={link} target="_blank" rel="noreferrer">
         <img className="project-img" src={img} alt=""/>
       </a>
     </div>

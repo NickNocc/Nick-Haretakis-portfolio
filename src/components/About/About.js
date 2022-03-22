@@ -4,6 +4,10 @@ import "./about.css";
 const About = () => {
   return (
     <div className="about">
+      <div className="about-left">
+        <h1 className="about-title">Skills</h1>
+        
+      </div>
       <div className="about-right">
         <h1 className="about-title">About Me</h1>
         <p className="about-sub">

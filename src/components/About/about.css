@@ -1,5 +1,5 @@
 .about {
-    height: 100vh;
+    height: 50vh;
     display: flex;
     align-items: center;
 }
@@ -16,29 +16,10 @@
     flex: 1;
 }
 
-.about-card {
-    width: 60%;
-    height: 70vh;
-    border-radius: 30px;
-    position: relative;
-    overflow: hidden;
-}
-
-.about-card.bg {
-    position: absolute;
-    top: 50;
-    left: 50;
-    background-color: aquamarine;
-}
-
-.about-image {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-
 .about-title {
-    font-weight: 400;
+    font-weight: 400px;
+    text-align: center;
+    color: #342E37;
 }
 
 .about-sub {
@@ -46,7 +27,8 @@
 }
 
 .about-desc {
-    font-weight: 300;
+    font-weight: 300px;
+    color: #342E37;
 }
 
 @media screen and (max-width: 480px) {
