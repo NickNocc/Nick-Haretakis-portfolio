@@ -5,8 +5,16 @@ const About = () => {
   return (
     <div className="about">
       <div className="about-left">
+        <div className="about-skills">
         <h1 className="about-title">Skills</h1>
-        
+          <div className="about-skill-item">Javascript</div>
+          <div className="about-skill-item">SQL</div>
+          <div className="about-skill-item">NoSQL</div>
+          <div className="about-skill-item">Express</div>
+          <div className="about-skill-item">Node.js</div>
+          <div className="about-skill-item">React</div>
+          <div className="about-skill-item">MERN</div>
+        </div>
       </div>
       <div className="about-right">
         <h1 className="about-title">About Me</h1>

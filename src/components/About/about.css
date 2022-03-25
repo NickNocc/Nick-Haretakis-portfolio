@@ -20,14 +20,24 @@
     font-weight: 400px;
     text-align: center;
     color: #342E37;
+    width: 100%;
 }
 
 .about-sub {
     margin: 20px 0px;
+    color: #342E37;
 }
 
 .about-desc {
     font-weight: 300px;
+    color: #342E37;
+}
+
+
+
+.about-skill-item {
+    margin: 20px 0px;
+    text-align: center;
     color: #342E37;
 }
 
