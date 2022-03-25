@@ -1,6 +1,6 @@
 import React from "react";
 import "./about.css";
-beep beep
+beep beep adjusting css
 const About = () => {
   return (
     <div className="about">
