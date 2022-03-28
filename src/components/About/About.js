@@ -1,5 +1,6 @@
 import React from "react";
 import "./about.css";
+import Checkmark from "../../assets/img/Checkmark.png";
 
 const About = () => {
   return (
@@ -7,13 +8,34 @@ const About = () => {
       <div className="about-left">
         <div className="about-skills">
           <h1 className="about-title">Skills</h1>
-          <div className="about-skill-item">Javascript</div>
-          <div className="about-skill-item">SQL</div>
-          <div className="about-skill-item">NoSQL</div>
-          <div className="about-skill-item">Express</div>
-          <div className="about-skill-item">Node.js</div>
-          <div className="about-skill-item">React</div>
-          <div className="about-skill-item">MERN</div>
+          <div className="about-skill-item">
+            <img className="about-icon" src={Checkmark} alt="" />
+            Javascript
+          </div>
+          <div className="about-skill-item">
+            <img className="about-icon" src={Checkmark} alt="" />
+            SQL
+          </div>
+          <div className="about-skill-item">
+            <img className="about-icon" src={Checkmark} alt="" />
+            NoSQL
+          </div>
+          <div className="about-skill-item">
+            <img className="about-icon" src={Checkmark} alt="" />
+            Express
+          </div>
+          <div className="about-skill-item">
+            <img className="about-icon" src={Checkmark} alt="" />
+            Node.js
+          </div>
+          <div className="about-skill-item">
+            <img className="about-icon" src={Checkmark} alt="" />
+            React
+          </div>
+          <div className="about-skill-item">
+            <img className="about-icon" src={Checkmark} alt="" />
+            MERN
+          </div>
         </div>
       </div>
       <div className="about-right">

@@ -33,12 +33,21 @@
     color: #342E37;
 }
 
-
+.about-skills {
+    width: 100%;
+}
 
 .about-skill-item {
     margin: 20px 0px;
     text-align: center;
     color: #342E37;
+    font-size: 20px;
+}
+
+.about-icon {
+    width: 15px;
+    height: 15px;
+    margin-right: 20px;
 }
 
 @media screen and (max-width: 480px) {

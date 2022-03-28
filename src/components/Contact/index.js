@@ -57,7 +57,7 @@ function ContactForm() {
           </div>
         </div>
         <div className="contact-right">
-          <p className="contact-desc">Send me an email!</p>
+          <p className="contact-desc">Get in contact with me!</p>
           <form ref={formRef} onSubmit={sumbitHandler}>
             <input
               style={{ backgroundColor: darkMode && "#D07632" }}
