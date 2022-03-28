@@ -11,22 +11,19 @@ const Intro = () => {
           <div className="intro-title">
             <div className="intro-title-wrapper">
               <div className="intro-title-item">Web Developer</div>
+              <div className="intro-title-item">Forever Student</div>
+              <div className="intro-title-item">Critical Thinker</div>
               <div className="intro-title-item">Anthropologist</div>
-              <div className="intro-title-item">Something else</div>
-
             </div>
           </div>
           <p className="intro-description">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-            culpa qui officia deserunt mollit anim id est laborum.
+            Hello my name is Nick Haretakis, I am a graduate of UCLA's
+            Anthropology program as well as UCLA's full stack web development
+            course. I have a passion for learning and improving myself both
+            personally and professionally. I'm always excited to broaden my
+            horizons in any way that I can.
           </p>
         </div>
-        
       </div>
 
       <div className="intro-right">
