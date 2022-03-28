@@ -1,7 +1,7 @@
 {
   "name": "nick-haretakis-portfolio",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "homepage": "https://nicknocc.github.io/Nick-Haretakis-portfolio",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.2",
