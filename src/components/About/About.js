@@ -14,7 +14,7 @@ const About = () => {
           </div>
           <div className="about-skill-item">
             <img className="about-icon" src={Checkmark} alt="" />
-            SQLsadasdasdasd
+            SQLsadasd
           </div>
           <div className="about-skill-item">
             <img className="about-icon" src={Checkmark} alt="" />
