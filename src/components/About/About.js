@@ -42,7 +42,7 @@ const About = () => {
         <h1 className="about-title">About Me</h1>
         <p className="about-sub">
           While my journey with web development has only just started, I am
-          confident in my ability to expand my knowledge going into the future.aaaaaaaaaaaa
+          confident in my ability to expand my knowledge going into the future.aaaa
         </p>
         <p className="about-desc">
           While I have only recently developed an understanding of web
