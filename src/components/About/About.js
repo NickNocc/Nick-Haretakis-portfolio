@@ -54,7 +54,6 @@ const About = () => {
           full stack web development journey has reinvogorated my love of
           learning and I am excited to see where this career will take me!
         </p>
-        
       </div>
     </div>
   );
