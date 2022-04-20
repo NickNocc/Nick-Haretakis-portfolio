@@ -53,15 +53,6 @@ const About = () => {
           understanding of different technologies and how to implement them. My
           full stack web development journey has reinvogorated my love of
           learning and I am excited to see where this career will take me!
-        </p>        <p className="about-desc">
-          While I have only recently developed an understanding of web
-          development it has been one of the most interesting and challenging
-          endevors I have taken. Thoughtout my studies I've learned technologies
-          such as SQL, Express, React to name a few. While web development has
-          been a challenging undertaking, it has pushed me to rapidly expand my
-          understanding of different technologies and how to implement them. My
-          full stack web development journey has reinvogorated my love of
-          learning and I am excited to see where this career will take me!
         </p>
       </div>
     </div>
