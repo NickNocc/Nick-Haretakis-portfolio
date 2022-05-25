@@ -45,14 +45,21 @@ const About = () => {
           confident in my ability to expand my knowledge going into the future.
         </p>
         <p className="about-desc">
-          While I have only recently developed an understanding of web
-          development it has been one of the most interesting and challenging
-          endevors I have taken. Thoughtout my studies I've learned technologies
-          such as SQL, Express, React to name a few. While web development has
-          been a challenging undertaking, it has pushed me to rapidly expand my
-          understanding of different technologies and how to implement them. My
-          full stack web development journey has reinvogorated my love of
-          learning and I am excited to see where this career will take me!
+          Computers have been a huge part of my life ever since I was a child,
+          so after graduating from UCLA I decided I wanted to take this interest
+          to the next level and learn computer programming. This took me on a
+          challenging and satisfying journey to become a Full Stack Developer. I
+          have recently earned a certificate in full stack development from the
+          University Coding, with newly developed skills in JavaScript, CSS,
+          React.js, and responsive web design. Known as a problem solver who
+          works as a team player to develop applications. With each project I
+          aim to develop an application with practical and easy use to reach as
+          many users as possible.I lead a team of three to develop a single-page
+          MERN app that tracks media consumption for users so that they may more
+          effectively use their free time. As a part of a team I bring clear and
+          concise communication skills from my time in food service, my holistic
+          understanding of applications and those who use them, and my emphasis
+          on synergy and working as a team to deliver an excellent product.
         </p>
       </div>
     </div>
