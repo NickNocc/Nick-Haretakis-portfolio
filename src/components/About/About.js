@@ -60,22 +60,6 @@ const About = () => {
           concise communication skills from my time in food service, my holistic
           understanding of applications and those who use them, and my emphasis
           on synergy and working as a team to deliver an excellent product.
-        </p>        <p className="about-desc">
-          Computers have been a huge part of my life ever since I was a child,
-          so after graduating from UCLA I decided I wanted to take this interest
-          to the next level and learn computer programming. This took me on a
-          challenging and satisfying journey to become a Full Stack Developer. I
-          have recently earned a certificate in full stack development from the
-          University Coding, with newly developed skills in JavaScript, CSS,
-          React.js, and responsive web design. Known as a problem solver who
-          works as a team player to develop applications. With each project I
-          aim to develop an application with practical and easy use to reach as
-          many users as possible.I lead a team of three to develop a single-page
-          MERN app that tracks media consumption for users so that they may more
-          effectively use their free time. As a part of a team I bring clear and
-          concise communication skills from my time in food service, my holistic
-          understanding of applications and those who use them, and my emphasis
-          on synergy and working as a team to deliver an excellent product.
         </p>
       </div>
     </div>
